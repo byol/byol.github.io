@@ -1,4 +1,3 @@
-
 function submitAnswer(ans) {
      if (ans===1) {
           y = document.getElementById("answer").value
@@ -158,7 +157,7 @@ function submitAnswer(ans) {
      if (ans===16) {
           y = document.getElementById("answer15").value
           yy = y.toUpperCase();
-          if else (yy=== "C") {
+          if (yy=== "C") {
                alert("You are right!")
           }
           else {
